@@ -1,0 +1,36 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="0">mphb_booking</custom-type>
+		<custom-type translate="0">mphb_reserved_room</custom-type>
+		<custom-type translate="0">mphb_payment</custom-type>
+		<custom-type translate="0">mphb_room</custom-type>
+		<custom-type translate="0">mphb_season</custom-type>
+		<custom-type translate="1">mphb_rate</custom-type>
+		<custom-type translate="1">mphb_room_service</custom-type>
+		<custom-type translate="1">mphb_room_type</custom-type>
+		<custom-type translate="1">mphb_room_attribute</custom-type>
+	</custom-types>
+	<custom-fields>
+		<!--Service-->
+		<custom-field action="copy">mphb_price</custom-field>
+		<custom-field action="copy">mphb_price_periodicity</custom-field>
+		<custom-field action="copy">mphb_price_quantity</custom-field>
+		<custom-field action="translate">mphb_description</custom-field>
+		<!--Rate-->
+		<custom-field action="copy">mphb_room_type_id</custom-field>
+		<custom-field action="copy">mphb_season_prices</custom-field>
+		<!--Room Type-->
+		<custom-field action="copy">mphb_adults_capacity</custom-field>
+		<custom-field action="copy">mphb_children_capacity</custom-field>
+		<custom-field action="copy">mphb_size</custom-field>
+		<custom-field action="copy">mphb_gallery</custom-field>
+		<custom-field action="copy">mphb_services</custom-field>
+		<custom-field action="translate">mphb_bed</custom-field>
+		<custom-field action="translate">mphb_view</custom-field>
+	</custom-fields>
+	<taxonomies>
+		<taxonomy translate="1">mphb_room_type_facility</taxonomy>
+		<taxonomy translate="1">mphb_room_type_category</taxonomy>
+		<taxonomy translate="1">mphb_room_type_tag</taxonomy>
+	</taxonomies>
+</wpml-config>
